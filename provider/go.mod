@@ -2,7 +2,10 @@ module github.com/pulumi/pulumi-xyz/provider
 
 go 1.21
 
-require github.com/pulumi/pulumi-go-provider v0.11.1
+require (
+	github.com/pulumi/pulumi-go-provider v0.11.1
+	github.com/pulumi/pulumi/sdk/v3 v3.79.0
+)
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
@@ -44,7 +47,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pkg/term v1.1.0 // indirect
 	github.com/pulumi/pulumi/pkg/v3 v3.79.0 // indirect
-	github.com/pulumi/pulumi/sdk/v3 v3.79.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06 // indirect
@@ -71,7 +73,7 @@ require (
 	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/tools v0.12.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
-	google.golang.org/grpc v1.57.0 // indirect
+	google.golang.org/grpc v1.57.1 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
